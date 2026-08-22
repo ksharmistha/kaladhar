@@ -1,0 +1,49 @@
+[
+  {
+    "id": "AI Generated Video --- A model wearing the exact kurti from the reference image sta…",
+    "export": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_183825\\exports\\AI Generated Video --- A model wearing the exact kurti from the reference image sta…_1080x1920.mp4",
+    "mode": "crop",
+    "mode_decision": {
+      "min_retention": 1.0,
+      "mean_retention": 1.0,
+      "per_frame": [
+        {
+          "frame": 0,
+          "retention": 1.0
+        },
+        {
+          "frame": 30,
+          "retention": 1.0
+        },
+        {
+          "frame": 60,
+          "retention": 1.0
+        },
+        {
+          "frame": 90,
+          "retention": 1.0
+        },
+        {
+          "frame": 120,
+          "retention": 1.0
+        }
+      ],
+      "mode": "crop",
+      "required_retention": 0.995,
+      "rationale": "crop keeps 100.00% of the garment across sampled frames (>= 99.5% required), so the full screen is used with no product loss"
+    },
+    "probe": {
+      "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_183825\\exports\\AI Generated Video --- A model wearing the exact kurti from the reference image sta…_1080x1920.mp4",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30.0,
+      "frame_count": 153,
+      "duration_s": 5.1,
+      "aspect": 0.5625,
+      "file_mb": 4.51,
+      "is_9_16": true,
+      "is_1080x1920": true
+    },
+    "conforms": true
+  }
+]

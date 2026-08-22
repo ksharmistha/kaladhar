@@ -1,0 +1,53 @@
+{
+  "n": 6,
+  "seed": 7,
+  "min_axis_diff_required": 3,
+  "min_axis_diff_achieved": 4,
+  "total_pairwise_spread": 73,
+  "axis_value_reuse": 2,
+  "axis_value_usage": {
+    "environment": {
+      "mansion": 1,
+      "mandap": 1,
+      "palace": 1,
+      "cafe": 1,
+      "resort": 1,
+      "rooftop": 1
+    },
+    "lighting": {
+      "softbox": 1,
+      "golden": 1,
+      "lamp": 1,
+      "overcast": 1,
+      "highkey": 1,
+      "practical": 1
+    },
+    "camera": {
+      "static": 1,
+      "pushin": 1,
+      "rack": 1,
+      "parallax": 1,
+      "reveal": 1,
+      "orbit": 1
+    },
+    "concept": {
+      "occasion": 1,
+      "everyday": 1,
+      "heritage_craft": 1,
+      "luxury_premium": 1,
+      "styling": 1,
+      "gifting": 1
+    },
+    "grade": {
+      "neutral": 2,
+      "cool": 2,
+      "warmgold": 1,
+      "richfestive": 1
+    }
+  },
+  "environment_assignment": "deterministic, in declaration order",
+  "unique_axes": [
+    "camera",
+    "concept"
+  ]
+}

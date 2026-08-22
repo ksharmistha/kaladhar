@@ -1,0 +1,107 @@
+{
+  "run_id": "run_m2_real",
+  "created": "2026-08-22 16:44:48",
+  "state": "EXPORTED",
+  "history": [
+    {
+      "state": "PREPROCESSED",
+      "at": "16:44:57",
+      "note": "ingested saree_source.jpg"
+    },
+    {
+      "state": "AWAITING_CLIPS",
+      "at": "16:44:57",
+      "note": "6 briefs ready for manual Ekly generation"
+    },
+    {
+      "state": "CLIPS_IMPORTED",
+      "at": "16:45:02",
+      "note": "4 clips imported"
+    },
+    {
+      "state": "SCORED",
+      "at": "16:48:18",
+      "note": "4 clips scored"
+    },
+    {
+      "state": "SELECTED",
+      "at": "16:51:45",
+      "note": "3 selected"
+    },
+    {
+      "state": "SELECTED",
+      "at": "16:54:31",
+      "note": "3 selected"
+    },
+    {
+      "state": "EXPORTED",
+      "at": "16:55:10",
+      "note": "3 exported"
+    }
+  ],
+  "timings": {
+    "validate": 0.02,
+    "preprocess": 0.145,
+    "segment": 5.682,
+    "signature": 3.455,
+    "ingest_total": 9.317,
+    "plan_briefs": 0.003,
+    "score_all": 180.037,
+    "diversity_embed": 5.533,
+    "export": 26.283
+  },
+  "source": {
+    "original_name": "saree_source.jpg",
+    "validation": {
+      "ok": true,
+      "path": "assets\\source\\saree_source.jpg",
+      "errors": [],
+      "warnings": [
+        "Short edge is 500px (under 800px). Usable, but weave-texture scoring will be limited by source detail, not by the generated clip."
+      ],
+      "info": {
+        "file_size": "183.0 KB",
+        "format": "JPEG",
+        "dimensions": "500x724",
+        "mode": "RGB",
+        "megapixels": 0.36,
+        "aspect": "0.691"
+      }
+    },
+    "working_size": [
+      500,
+      724
+    ],
+    "reference_size": [
+      500,
+      724
+    ],
+    "mask": {
+      "subject_fraction": 0.3971,
+      "garment_fraction": 0.3573,
+      "notes": [
+        "Garment mask is a heuristic refinement of the rembg subject mask, not a trained garment segmenter."
+      ]
+    },
+    "palette_hex": [
+      "#31a5bd",
+      "#99c6ce",
+      "#106784",
+      "#4b7c81",
+      "#0e3144"
+    ],
+    "border_patch_box": [
+      252,
+      430,
+      128,
+      128
+    ]
+  },
+  "plan": {
+    "n_briefs": 6,
+    "product": "saree",
+    "min_axis_diff_achieved": 4,
+    "expected_credits": 273.0
+  },
+  "product": "saree"
+}

@@ -1,0 +1,19 @@
+{
+  "gate1_passing": [
+    {
+      "id": "AI Generated Video --- A model wearing the exact kurti from the reference image sta…",
+      "fidelity_mean": 55.04,
+      "fidelity_min": 38.67,
+      "reasons": [],
+      "clip": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_182724\\clips\\AI Generated Video --- A model wearing the exact kurti from the reference image sta….mp4"
+    }
+  ],
+  "gate1_rejected": [],
+  "threshold_used": 51.0,
+  "diversity": {
+    "selected_ids": [
+      "AI Generated Video --- A model wearing the exact kurti from the reference image sta…"
+    ],
+    "note": "Only one clip passed Gate 1; diversity selection needs at least two."
+  }
+}

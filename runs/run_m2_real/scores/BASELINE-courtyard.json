@@ -1,0 +1,864 @@
+{
+  "clip": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\BASELINE-courtyard.mp4",
+  "info": {
+    "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\BASELINE-courtyard.mp4",
+    "width": 768,
+    "height": 1152,
+    "fps": 30.0,
+    "frame_count": 153,
+    "duration_s": 5.1,
+    "aspect": 0.6667,
+    "file_mb": 12.31,
+    "is_9_16": false,
+    "is_1080x1920": false
+  },
+  "frames_scored": 31,
+  "frames_sampled": 31,
+  "stride": 5,
+  "fidelity_mean": 71.23,
+  "fidelity_min": 61.06,
+  "fidelity_std": 7.47,
+  "worst_frame": {
+    "frame": 85,
+    "t": 2.833,
+    "fidelity": 61.06
+  },
+  "means": {
+    "delta_e2000": 3.242,
+    "weave_distance": 0.2047,
+    "clip_cosine": 0.91,
+    "ssim": 0.2216
+  },
+  "motion": {
+    "mean": 0.04109624773263931,
+    "max": 0.05598114803433418,
+    "std": 0.008862263523042202
+  },
+  "motion_series": [
+    0.04086,
+    0.03277,
+    0.04389,
+    0.04194,
+    0.04871,
+    0.04178,
+    0.04819,
+    0.03947,
+    0.05049,
+    0.04462,
+    0.05122,
+    0.045,
+    0.05343,
+    0.04795,
+    0.05435,
+    0.04548,
+    0.05201,
+    0.0494,
+    0.05217,
+    0.0429,
+    0.05099,
+    0.04952,
+    0.04988,
+    0.04154,
+    0.05598,
+    0.04727,
+    0.0523,
+    0.04473,
+    0.05129,
+    0.04077,
+    0.04862,
+    0.03811,
+    0.04546,
+    0.04354,
+    0.04911,
+    0.04222,
+    0.04812,
+    0.04548,
+    0.05429,
+    0.04368,
+    0.05117,
+    0.04705,
+    0.05312,
+    0.03955,
+    0.04588,
+    0.0423,
+    0.04166,
+    0.03233,
+    0.04388,
+    0.03692,
+    0.03855,
+    0.03407,
+    0.04109,
+    0.03349,
+    0.04219,
+    0.03569,
+    0.03991,
+    0.0343,
+    0.03869,
+    0.03192,
+    0.03541,
+    0.0296,
+    0.03314,
+    0.02861,
+    0.03271,
+    0.03021,
+    0.03214,
+    0.02394,
+    0.02831,
+    0.02937,
+    0.02721,
+    0.02094,
+    0.02881,
+    0.02754,
+    0.02424,
+    0.01782
+  ],
+  "per_frame": [
+    {
+      "found": true,
+      "delta_e2000": 2.995,
+      "weave_distance": 0.128,
+      "clip_cosine": 0.9808,
+      "ssim": 0.6843,
+      "ssim_confidence": 0.9306,
+      "ssim_box": [
+        387,
+        685,
+        205,
+        205
+      ],
+      "mask_fraction": 0.3724,
+      "subscores": {
+        "colour": 91.71,
+        "weave": 63.42,
+        "identity": 100.0,
+        "structure": 100.0
+      },
+      "fidelity": 87.95,
+      "frame": 0,
+      "t": 0.0
+    },
+    {
+      "found": true,
+      "delta_e2000": 3.525,
+      "weave_distance": 0.1283,
+      "clip_cosine": 0.9739,
+      "ssim": 0.523,
+      "ssim_confidence": 0.8336,
+      "ssim_box": [
+        382,
+        686,
+        205,
+        205
+      ],
+      "mask_fraction": 0.3774,
+      "subscores": {
+        "colour": 87.29,
+        "weave": 63.34,
+        "identity": 100.0,
+        "structure": 87.16
+      },
+      "fidelity": 85.1,
+      "frame": 5,
+      "t": 0.167
+    },
+    {
+      "found": true,
+      "delta_e2000": 3.0,
+      "weave_distance": 0.1301,
+      "clip_cosine": 0.9703,
+      "ssim": 0.4391,
+      "ssim_confidence": 0.7585,
+      "ssim_box": [
+        374,
+        686,
+        205,
+        205
+      ],
+      "mask_fraction": 0.3781,
+      "subscores": {
+        "colour": 91.67,
+        "weave": 62.84,
+        "identity": 100.0,
+        "structure": 73.18
+      },
+      "fidelity": 85.11,
+      "frame": 10,
+      "t": 0.333
+    },
+    {
+      "found": true,
+      "delta_e2000": 1.911,
+      "weave_distance": 0.1425,
+      "clip_cosine": 0.9678,
+      "ssim": 0.3652,
+      "ssim_confidence": 0.6952,
+      "ssim_box": [
+        365,
+        686,
+        205,
+        205
+      ],
+      "mask_fraction": 0.3762,
+      "subscores": {
+        "colour": 100.0,
+        "weave": 59.3,
+        "identity": 100.0,
+        "structure": 60.87
+      },
+      "fidelity": 85.91,
+      "frame": 15,
+      "t": 0.5
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.301,
+      "weave_distance": 0.1698,
+      "clip_cosine": 0.9647,
+      "ssim": 0.2989,
+      "ssim_confidence": 0.626,
+      "ssim_box": [
+        354,
+        685,
+        205,
+        205
+      ],
+      "mask_fraction": 0.3721,
+      "subscores": {
+        "colour": 97.49,
+        "weave": 51.47,
+        "identity": 100.0,
+        "structure": 49.82
+      },
+      "fidelity": 81.97,
+      "frame": 20,
+      "t": 0.667
+    },
+    {
+      "found": true,
+      "delta_e2000": 1.693,
+      "weave_distance": 0.1575,
+      "clip_cosine": 0.9635,
+      "ssim": 0.2295,
+      "ssim_confidence": 0.5343,
+      "ssim_box": [
+        340,
+        684,
+        205,
+        205
+      ],
+      "mask_fraction": 0.3675,
+      "subscores": {
+        "colour": 100.0,
+        "weave": 55.01,
+        "identity": 100.0,
+        "structure": 29.87
+      },
+      "fidelity": 81.74,
+      "frame": 25,
+      "t": 0.833
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.413,
+      "weave_distance": 0.1695,
+      "clip_cosine": 0.9564,
+      "ssim": 0.211,
+      "ssim_confidence": 0.4685,
+      "ssim_box": [
+        325,
+        683,
+        205,
+        205
+      ],
+      "mask_fraction": 0.3619,
+      "subscores": {
+        "colour": 96.56,
+        "weave": 51.57,
+        "identity": 100.0,
+        "structure": 19.74
+      },
+      "fidelity": 78.66,
+      "frame": 30,
+      "t": 1.0
+    },
+    {
+      "found": true,
+      "delta_e2000": 4.68,
+      "weave_distance": 0.1934,
+      "clip_cosine": 0.9224,
+      "ssim": 0.1569,
+      "ssim_confidence": 0.4606,
+      "ssim_box": [
+        293,
+        933,
+        77,
+        77
+      ],
+      "mask_fraction": 0.3527,
+      "subscores": {
+        "colour": 77.67,
+        "weave": 44.75,
+        "identity": 93.09,
+        "structure": 14.0
+      },
+      "fidelity": 67.7,
+      "frame": 35,
+      "t": 1.167
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.741,
+      "weave_distance": 0.1895,
+      "clip_cosine": 0.9316,
+      "ssim": 0.1276,
+      "ssim_confidence": 0.4563,
+      "ssim_box": [
+        285,
+        930,
+        77,
+        77
+      ],
+      "mask_fraction": 0.3434,
+      "subscores": {
+        "colour": 93.83,
+        "weave": 45.85,
+        "identity": 95.41,
+        "structure": 11.08
+      },
+      "fidelity": 74.03,
+      "frame": 40,
+      "t": 1.333
+    },
+    {
+      "found": true,
+      "delta_e2000": 3.071,
+      "weave_distance": 0.225,
+      "clip_cosine": 0.9469,
+      "ssim": 0.1446,
+      "ssim_confidence": 0.4925,
+      "ssim_box": [
+        276,
+        934,
+        77,
+        77
+      ],
+      "mask_fraction": 0.33,
+      "subscores": {
+        "colour": 91.08,
+        "weave": 35.71,
+        "identity": 99.21,
+        "structure": 15.46
+      },
+      "fidelity": 72.11,
+      "frame": 45,
+      "t": 1.5
+    },
+    {
+      "found": true,
+      "delta_e2000": 3.251,
+      "weave_distance": 0.233,
+      "clip_cosine": 0.9332,
+      "ssim": 0.1863,
+      "ssim_confidence": 0.52,
+      "ssim_box": [
+        277,
+        962,
+        77,
+        77
+      ],
+      "mask_fraction": 0.3152,
+      "subscores": {
+        "colour": 89.58,
+        "weave": 33.43,
+        "identity": 95.8,
+        "structure": 22.77
+      },
+      "fidelity": 70.73,
+      "frame": 50,
+      "t": 1.667
+    },
+    {
+      "found": true,
+      "delta_e2000": 3.551,
+      "weave_distance": 0.2385,
+      "clip_cosine": 0.9311,
+      "ssim": 0.1455,
+      "ssim_confidence": 0.5071,
+      "ssim_box": [
+        271,
+        655,
+        115,
+        115
+      ],
+      "mask_fraction": 0.3054,
+      "subscores": {
+        "colour": 87.08,
+        "weave": 31.87,
+        "identity": 95.28,
+        "structure": 16.74
+      },
+      "fidelity": 68.7,
+      "frame": 55,
+      "t": 1.833
+    },
+    {
+      "found": true,
+      "delta_e2000": 3.914,
+      "weave_distance": 0.2625,
+      "clip_cosine": 0.906,
+      "ssim": 0.1527,
+      "ssim_confidence": 0.5207,
+      "ssim_box": [
+        266,
+        660,
+        96,
+        96
+      ],
+      "mask_fraction": 0.2926,
+      "subscores": {
+        "colour": 84.05,
+        "weave": 25.0,
+        "identity": 89.0,
+        "structure": 18.72
+      },
+      "fidelity": 64.24,
+      "frame": 60,
+      "t": 2.0
+    },
+    {
+      "found": true,
+      "delta_e2000": 3.589,
+      "weave_distance": 0.2559,
+      "clip_cosine": 0.9398,
+      "ssim": 0.1969,
+      "ssim_confidence": 0.5611,
+      "ssim_box": [
+        262,
+        674,
+        77,
+        77
+      ],
+      "mask_fraction": 0.282,
+      "subscores": {
+        "colour": 86.76,
+        "weave": 26.87,
+        "identity": 97.46,
+        "structure": 28.56
+      },
+      "fidelity": 69.18,
+      "frame": 65,
+      "t": 2.167
+    },
+    {
+      "found": true,
+      "delta_e2000": 3.993,
+      "weave_distance": 0.2591,
+      "clip_cosine": 0.9258,
+      "ssim": 0.126,
+      "ssim_confidence": 0.4524,
+      "ssim_box": [
+        416,
+        627,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2772,
+      "subscores": {
+        "colour": 83.39,
+        "weave": 25.98,
+        "identity": 93.94,
+        "structure": 10.67
+      },
+      "fidelity": 64.93,
+      "frame": 70,
+      "t": 2.333
+    },
+    {
+      "found": true,
+      "delta_e2000": 4.862,
+      "weave_distance": 0.2599,
+      "clip_cosine": 0.9161,
+      "ssim": 0.1971,
+      "ssim_confidence": 0.5164,
+      "ssim_box": [
+        409,
+        618,
+        77,
+        77
+      ],
+      "mask_fraction": 0.273,
+      "subscores": {
+        "colour": 76.15,
+        "weave": 25.76,
+        "identity": 91.54,
+        "structure": 23.69
+      },
+      "fidelity": 62.92,
+      "frame": 75,
+      "t": 2.5
+    },
+    {
+      "found": true,
+      "delta_e2000": 4.615,
+      "weave_distance": 0.2455,
+      "clip_cosine": 0.9227,
+      "ssim": 0.16,
+      "ssim_confidence": 0.4538,
+      "ssim_box": [
+        345,
+        697,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2667,
+      "subscores": {
+        "colour": 78.21,
+        "weave": 29.85,
+        "identity": 93.16,
+        "structure": 13.67
+      },
+      "fidelity": 64.15,
+      "frame": 80,
+      "t": 2.667
+    },
+    {
+      "found": true,
+      "delta_e2000": 5.003,
+      "weave_distance": 0.2463,
+      "clip_cosine": 0.902,
+      "ssim": 0.1417,
+      "ssim_confidence": 0.4277,
+      "ssim_box": [
+        260,
+        660,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2607,
+      "subscores": {
+        "colour": 74.98,
+        "weave": 29.63,
+        "identity": 88.01,
+        "structure": 10.05
+      },
+      "fidelity": 61.06,
+      "frame": 85,
+      "t": 2.833
+    },
+    {
+      "found": true,
+      "delta_e2000": 4.397,
+      "weave_distance": 0.2303,
+      "clip_cosine": 0.8984,
+      "ssim": 0.1201,
+      "ssim_confidence": 0.4186,
+      "ssim_box": [
+        407,
+        895,
+        96,
+        96
+      ],
+      "mask_fraction": 0.2577,
+      "subscores": {
+        "colour": 80.03,
+        "weave": 34.19,
+        "identity": 87.1,
+        "structure": 7.92
+      },
+      "fidelity": 63.48,
+      "frame": 90,
+      "t": 3.0
+    },
+    {
+      "found": true,
+      "delta_e2000": 4.892,
+      "weave_distance": 0.2121,
+      "clip_cosine": 0.8918,
+      "ssim": 0.1279,
+      "ssim_confidence": 0.4186,
+      "ssim_box": [
+        374,
+        805,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2558,
+      "subscores": {
+        "colour": 75.9,
+        "weave": 39.4,
+        "identity": 85.46,
+        "structure": 8.43
+      },
+      "fidelity": 62.9,
+      "frame": 95,
+      "t": 3.167
+    },
+    {
+      "found": true,
+      "delta_e2000": 4.568,
+      "weave_distance": 0.233,
+      "clip_cosine": 0.9151,
+      "ssim": 0.2505,
+      "ssim_confidence": 0.4706,
+      "ssim_box": [
+        294,
+        310,
+        77,
+        77
+      ],
+      "mask_fraction": 0.255,
+      "subscores": {
+        "colour": 78.6,
+        "weave": 33.42,
+        "identity": 91.27,
+        "structure": 23.74
+      },
+      "fidelity": 65.62,
+      "frame": 100,
+      "t": 3.333
+    },
+    {
+      "found": true,
+      "delta_e2000": 3.455,
+      "weave_distance": 0.2218,
+      "clip_cosine": 0.8926,
+      "ssim": 0.2582,
+      "ssim_confidence": 0.5347,
+      "ssim_box": [
+        286,
+        313,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2536,
+      "subscores": {
+        "colour": 87.87,
+        "weave": 36.62,
+        "identity": 85.64,
+        "structure": 33.66
+      },
+      "fidelity": 68.97,
+      "frame": 105,
+      "t": 3.5
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.83,
+      "weave_distance": 0.2202,
+      "clip_cosine": 0.8814,
+      "ssim": 0.2503,
+      "ssim_confidence": 0.5256,
+      "ssim_box": [
+        279,
+        316,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2542,
+      "subscores": {
+        "colour": 93.08,
+        "weave": 37.09,
+        "identity": 82.85,
+        "structure": 31.37
+      },
+      "fidelity": 69.84,
+      "frame": 110,
+      "t": 3.667
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.199,
+      "weave_distance": 0.2229,
+      "clip_cosine": 0.8422,
+      "ssim": 0.1734,
+      "ssim_confidence": 0.5453,
+      "ssim_box": [
+        338,
+        607,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2567,
+      "subscores": {
+        "colour": 98.34,
+        "weave": 36.3,
+        "identity": 73.06,
+        "structure": 23.63
+      },
+      "fidelity": 67.78,
+      "frame": 115,
+      "t": 3.833
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.098,
+      "weave_distance": 0.2033,
+      "clip_cosine": 0.8608,
+      "ssim": 0.1725,
+      "ssim_confidence": 0.5479,
+      "ssim_box": [
+        329,
+        602,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2593,
+      "subscores": {
+        "colour": 99.18,
+        "weave": 41.92,
+        "identity": 77.7,
+        "structure": 23.76
+      },
+      "fidelity": 70.88,
+      "frame": 120,
+      "t": 4.0
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.419,
+      "weave_distance": 0.2117,
+      "clip_cosine": 0.8436,
+      "ssim": 0.1377,
+      "ssim_confidence": 0.475,
+      "ssim_box": [
+        309,
+        591,
+        96,
+        96
+      ],
+      "mask_fraction": 0.264,
+      "subscores": {
+        "colour": 96.51,
+        "weave": 39.51,
+        "identity": 73.4,
+        "structure": 13.38
+      },
+      "fidelity": 67.01,
+      "frame": 125,
+      "t": 4.167
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.201,
+      "weave_distance": 0.2113,
+      "clip_cosine": 0.8442,
+      "ssim": 0.1277,
+      "ssim_confidence": 0.4938,
+      "ssim_box": [
+        224,
+        598,
+        205,
+        205
+      ],
+      "mask_fraction": 0.2676,
+      "subscores": {
+        "colour": 98.33,
+        "weave": 39.62,
+        "identity": 73.54,
+        "structure": 13.75
+      },
+      "fidelity": 67.76,
+      "frame": 130,
+      "t": 4.333
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.178,
+      "weave_distance": 0.1988,
+      "clip_cosine": 0.8606,
+      "ssim": 0.178,
+      "ssim_confidence": 0.5088,
+      "ssim_box": [
+        298,
+        638,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2786,
+      "subscores": {
+        "colour": 98.52,
+        "weave": 43.19,
+        "identity": 77.66,
+        "structure": 20.66
+      },
+      "fidelity": 70.64,
+      "frame": 135,
+      "t": 4.5
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.354,
+      "weave_distance": 0.1944,
+      "clip_cosine": 0.8373,
+      "ssim": 0.1857,
+      "ssim_confidence": 0.5213,
+      "ssim_box": [
+        290,
+        638,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2848,
+      "subscores": {
+        "colour": 97.05,
+        "weave": 44.47,
+        "identity": 71.81,
+        "structure": 22.83
+      },
+      "fidelity": 68.91,
+      "frame": 140,
+      "t": 4.667
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.828,
+      "weave_distance": 0.1795,
+      "clip_cosine": 0.8444,
+      "ssim": 0.1991,
+      "ssim_confidence": 0.5122,
+      "ssim_box": [
+        282,
+        610,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2874,
+      "subscores": {
+        "colour": 93.1,
+        "weave": 48.71,
+        "identity": 73.6,
+        "structure": 23.47
+      },
+      "fidelity": 69.19,
+      "frame": 145,
+      "t": 4.833
+    },
+    {
+      "found": true,
+      "delta_e2000": 2.966,
+      "weave_distance": 0.1722,
+      "clip_cosine": 0.8416,
+      "ssim": 0.2018,
+      "ssim_confidence": 0.5049,
+      "ssim_box": [
+        276,
+        610,
+        77,
+        77
+      ],
+      "mask_fraction": 0.2875,
+      "subscores": {
+        "colour": 91.95,
+        "weave": 50.81,
+        "identity": 72.91,
+        "structure": 22.97
+      },
+      "fidelity": 69.05,
+      "frame": 150,
+      "t": 5.0
+    }
+  ],
+  "scoring_seconds": 48.61,
+  "id": "BASELINE-courtyard",
+  "brief_id": null
+}

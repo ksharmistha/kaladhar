@@ -1,0 +1,93 @@
+{
+  "anchors": [
+    {
+      "delta_e2000": 0.0,
+      "weave_distance": 0.0,
+      "clip_cosine": 1.0,
+      "ssim": 1.0,
+      "fidelity": 100.0,
+      "anchor": "source (identity)",
+      "meaning": "upper bound -- the product itself"
+    },
+    {
+      "delta_e2000": 3.603,
+      "weave_distance": 0.0306,
+      "clip_cosine": 0.9965,
+      "ssim": 0.9978,
+      "fidelity": 93.14,
+      "anchor": "hue shift 5 deg",
+      "meaning": "dye change, a customer-visible misrepresentation"
+    },
+    {
+      "delta_e2000": 8.276,
+      "weave_distance": 0.0779,
+      "clip_cosine": 0.9858,
+      "ssim": 0.9912,
+      "fidelity": 76.13,
+      "anchor": "hue shift 10 deg",
+      "meaning": "dye change, a customer-visible misrepresentation"
+    },
+    {
+      "delta_e2000": 11.58,
+      "weave_distance": 0.1721,
+      "clip_cosine": 0.9693,
+      "ssim": 0.9686,
+      "fidelity": 59.77,
+      "anchor": "hue shift 20 deg",
+      "meaning": "dye change, a customer-visible misrepresentation"
+    },
+    {
+      "delta_e2000": 1.664,
+      "weave_distance": 0.3033,
+      "clip_cosine": 0.972,
+      "ssim": 0.6848,
+      "fidelity": 78.34,
+      "anchor": "blur k=5",
+      "meaning": "weave collapse -- flat, plastic-looking fabric"
+    },
+    {
+      "delta_e2000": 1.463,
+      "weave_distance": 0.3506,
+      "clip_cosine": 0.9549,
+      "ssim": 0.4834,
+      "fidelity": 73.06,
+      "anchor": "blur k=9",
+      "meaning": "weave collapse -- flat, plastic-looking fabric"
+    },
+    {
+      "delta_e2000": 5.602,
+      "weave_distance": 0.0862,
+      "clip_cosine": 0.9836,
+      "ssim": 0.981,
+      "fidelity": 83.33,
+      "anchor": "desaturate 0.6",
+      "meaning": "washed-out dye"
+    }
+  ],
+  "real_clips": [
+    {
+      "id": "BASELINE-courtyard",
+      "mean": 71.23,
+      "min": 61.06
+    },
+    {
+      "id": "MANDAP-dusk",
+      "mean": 71.77,
+      "min": 65.09
+    },
+    {
+      "id": "MANSION-marble",
+      "mean": 44.89,
+      "min": 37.87
+    },
+    {
+      "id": "ROOFTOP-night",
+      "mean": 75.57,
+      "min": 71.28
+    }
+  ],
+  "proposed_threshold": 51.0,
+  "basis": "constructed limit clip -- colour pushed to dE2000 8.28 (a 10-degree hue shift, a visible dye change) and weave to distance 0.303 (blur k=5, weave collapse), with identity and structure held at the median of the real clips. A clip at or below this score has drifted as far as a customer-visible misrepresentation. NOTE: the weakest real clip (44.9) does NOT clear this floor.",
+  "sample_size_real_clips": 4,
+  "caveat": "Calibrated from 4 real clip(s) plus controlled degradations of the source. Identity and structure are held at the median across real clips. The anchors fix the scale; they are not a substitute for more real generations. Re-run after each new batch."
+}

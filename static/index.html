@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kaladhar — Product Fidelity Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="shell">
+
+  <nav class="rail" aria-label="Workflow">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">K</div>
+      <h1>Product Fidelity Studio</h1>
+    </div>
+    <div class="brand-sub">Kaladhar · ad quality control</div>
+
+    <ol class="steps" id="steps"></ol>
+
+    <div class="rail-foot">
+      <div style="margin-bottom:8px"><b>Runs</b></div>
+      <div id="runList"></div>
+      <button class="btn ghost sm" style="width:100%;margin-top:6px" id="newRunBtn">＋ Test another product</button>
+    </div>
+  </nav>
+
+  <div class="content">
+    <header class="topbar">
+      <span class="topbar-title">Product Fidelity Studio</span>
+      <span class="topbar-sep">/</span>
+      <span class="topbar-sub">Two independent gates before any ad ships</span>
+      <span class="spacer"></span>
+      <span id="healthNote"></span>
+    </header>
+
+    <main class="main" id="main"></main>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "V01",
+    "product": "saree",
+    "axes": {
+      "environment": "mansion",
+      "lighting": "softbox",
+      "camera": "static",
+      "concept": "occasion",
+      "grade": "neutral"
+    },
+    "axis_labels": {
+      "environment": "Luxury Mansion Interior",
+      "lighting": "Softbox studio",
+      "camera": "Static, subject moves",
+      "concept": "Occasion / festive",
+      "grade": "Neutral true-to-fabric"
+    },
+    "prompt": "A model wearing the exact saree from the reference image stands in the interior of a grand luxury mansion with polished white marble floors, a sweeping curved staircase and tall arched windows, in bright late-morning daylight that floods the hall and reflects off the marble. The scene is lit by even soft studio lighting from a large frontal softbox with gentle wraparound shadow. The camera holds completely static in a full-body framing while she moves within the frame. She moves naturally and the pallu drifts gently. The mood is celebratory occasion-wear, joyful and full of festive energy. Colour grade is neutral and true to fabric, with accurate white balance and no colour cast. Cinematic premium fashion advertisement, shallow depth of field on the background only, vertical 9:16 framing.\n\nPRODUCT ACCURACY - CRITICAL: The saree must remain EXACTLY as in the reference image. Preserve the exact colour, dye tone, pattern, print placement, motif scale, fabric texture, weave, silhouette, construction and the pallu, border motif, pleats and the way the drape falls. Do not redesign, restyle, recolour, embellish, resize or replace the saree or any part of it. Only the background, lighting and camera may change.\n\nAvoid: changing the saree colour, pattern, texture or construction; substituting a different garment; adding logos or text; distorted hands or face; flickering fabric; warped patterns; extra limbs.",
+    "ekly_settings": {
+      "model": "Kling AI Video Pro",
+      "reference_image": "input/reference.png",
+      "aspect": "9:16",
+      "duration_s": 5,
+      "quality": "standard",
+      "expected_credits": 45.5
+    }
+  },
+  {
+    "id": "V02",
+    "product": "saree",
+    "axes": {
+      "environment": "mandap",
+      "lighting": "golden",
+      "camera": "pushin",
+      "concept": "everyday",
+      "grade": "cool"
+    },
+    "axis_labels": {
+      "environment": "Indian Wedding Mandap",
+      "lighting": "Golden hour",
+      "camera": "Slow push-in",
+      "concept": "Everyday elegance",
+      "grade": "Cool editorial"
+    },
+    "prompt": "A model wearing the exact saree from the reference image stands in an ornate Indian wedding mandap at dusk, with four carved pillars, thick marigold garlands and deep red ceremonial drapes, lit by warm brass lamps against a darkening sky. The scene is lit by late golden-hour sunlight raking in from the left, warm and directional with long soft shadows. The camera performs a slow smooth push-in from a full-body wide shot to a mid-shot, keeping the garment fully in frame. She moves naturally and the pallu drifts gently. The mood is understated everyday elegance, natural and effortless. Colour grade is cool and editorial in the shadows, while the garment colour itself stays accurate. Cinematic premium fashion advertisement, shallow depth of field on the background only, vertical 9:16 framing.\n\nPRODUCT ACCURACY - CRITICAL: The saree must remain EXACTLY as in the reference image. Preserve the exact colour, dye tone, pattern, print placement, motif scale, fabric texture, weave, silhouette, construction and the pallu, border motif, pleats and the way the drape falls. Do not redesign, restyle, recolour, embellish, resize or replace the saree or any part of it. Only the background, lighting and camera may change.\n\nAvoid: changing the saree colour, pattern, texture or construction; substituting a different garment; adding logos or text; distorted hands or face; flickering fabric; warped patterns; extra limbs.",
+    "ekly_settings": {
+      "model": "Kling AI Video Pro",
+      "reference_image": "input/reference.png",
+      "aspect": "9:16",
+      "duration_s": 5,
+      "quality": "standard",
+      "expected_credits": 45.5
+    }
+  },
+  {
+    "id": "V03",
+    "product": "saree",
+    "axes": {
+      "environment": "palace",
+      "lighting": "lamp",
+      "camera": "rack",
+      "concept": "heritage_craft",
+      "grade": "warmgold"
+    },
+    "axis_labels": {
+      "environment": "Royal Palace Interior",
+      "lighting": "Warm lamp",
+      "camera": "Rack focus",
+      "concept": "Heritage craft",
+      "grade": "Warm gold"
+    },
+    "prompt": "A model wearing the exact saree from the reference image stands in a royal palace hall in the evening, with frescoed archways, gilded mirrorwork on the walls and a large crystal chandelier casting warm pools of light across patterned stone. The scene is lit by warm practical lamp light from one side, intimate and low-key with a gentle falloff. The camera holds its framing and racks focus from the background to the fabric, bringing the weave into sharp focus. She moves naturally and the pallu drifts gently. The mood is heritage handloom craftsmanship -- unhurried, artisanal and respectful of the weave. Colour grade is warm and golden in the highlights, while the garment colour itself stays accurate. Cinematic premium fashion advertisement, shallow depth of field on the background only, vertical 9:16 framing.\n\nPRODUCT ACCURACY - CRITICAL: The saree must remain EXACTLY as in the reference image. Preserve the exact colour, dye tone, pattern, print placement, motif scale, fabric texture, weave, silhouette, construction and the pallu, border motif, pleats and the way the drape falls. Do not redesign, restyle, recolour, embellish, resize or replace the saree or any part of it. Only the background, lighting and camera may change.\n\nAvoid: changing the saree colour, pattern, texture or construction; substituting a different garment; adding logos or text; distorted hands or face; flickering fabric; warped patterns; extra limbs.",
+    "ekly_settings": {
+      "model": "Kling AI Video Pro",
+      "reference_image": "input/reference.png",
+      "aspect": "9:16",
+      "duration_s": 5,
+      "quality": "standard",
+      "expected_credits": 45.5
+    }
+  },
+  {
+    "id": "V04",
+    "product": "saree",
+    "axes": {
+      "environment": "cafe",
+      "lighting": "overcast",
+      "camera": "parallax",
+      "concept": "luxury_premium",
+      "grade": "richfestive"
+    },
+    "axis_labels": {
+      "environment": "Modern Luxury Cafe",
+      "lighting": "Overcast diffuse",
+      "camera": "Parallax dolly",
+      "concept": "Premium luxury",
+      "grade": "Rich saturated festive"
+    },
+    "prompt": "A model wearing the exact saree from the reference image stands in a modern luxury cafe at midday, with brass fittings, walnut panelling and marble tabletops, soft even daylight coming through floor-to-ceiling glass. The scene is lit by flat diffuse overcast daylight with no hard shadows and very even colour rendition. The camera dollies laterally, creating parallax between her and the background while framing stays on the garment. She moves naturally and the pallu drifts gently. The mood is high-end luxury fashion, poised, editorial and expensive. Colour grade is rich and saturated in the surroundings, while the garment colour itself stays accurate. Cinematic premium fashion advertisement, shallow depth of field on the background only, vertical 9:16 framing.\n\nPRODUCT ACCURACY - CRITICAL: The saree must remain EXACTLY as in the reference image. Preserve the exact colour, dye tone, pattern, print placement, motif scale, fabric texture, weave, silhouette, construction and the pallu, border motif, pleats and the way the drape falls. Do not redesign, restyle, recolour, embellish, resize or replace the saree or any part of it. Only the background, lighting and camera may change.\n\nAvoid: changing the saree colour, pattern, texture or construction; substituting a different garment; adding logos or text; distorted hands or face; flickering fabric; warped patterns; extra limbs.",
+    "ekly_settings": {
+      "model": "Kling AI Video Pro",
+      "reference_image": "input/reference.png",
+      "aspect": "9:16",
+      "duration_s": 5,
+      "quality": "standard",
+      "expected_credits": 45.5
+    }
+  },
+  {
+    "id": "V05",
+    "product": "saree",
+    "axes": {
+      "environment": "resort",
+      "lighting": "highkey",
+      "camera": "reveal",
+      "concept": "styling",
+      "grade": "neutral"
+    },
+    "axis_labels": {
+      "environment": "Luxury Resort Terrace",
+      "lighting": "High-key luxury",
+      "camera": "Vertical reveal",
+      "concept": "Styling showcase",
+      "grade": "Neutral true-to-fabric"
+    },
+    "prompt": "A model wearing the exact saree from the reference image stands in an open luxury resort terrace at golden hour, with a turquoise infinity pool, long palm shadows across pale stone and warm low sun coming off the sea behind her. The scene is lit by bright high-key lighting with clean bright tones and a luminous, airy feel. The camera tilts slowly upward from the hem to the shoulder in one continuous vertical reveal of the garment. She moves naturally and the pallu drifts gently. The mood is a styling showcase, presenting how the drape falls and how the garment is worn. Colour grade is neutral and true to fabric, with accurate white balance and no colour cast. Cinematic premium fashion advertisement, shallow depth of field on the background only, vertical 9:16 framing.\n\nPRODUCT ACCURACY - CRITICAL: The saree must remain EXACTLY as in the reference image. Preserve the exact colour, dye tone, pattern, print placement, motif scale, fabric texture, weave, silhouette, construction and the pallu, border motif, pleats and the way the drape falls. Do not redesign, restyle, recolour, embellish, resize or replace the saree or any part of it. Only the background, lighting and camera may change.\n\nAvoid: changing the saree colour, pattern, texture or construction; substituting a different garment; adding logos or text; distorted hands or face; flickering fabric; warped patterns; extra limbs.",
+    "ekly_settings": {
+      "model": "Kling AI Video Pro",
+      "reference_image": "input/reference.png",
+      "aspect": "9:16",
+      "duration_s": 5,
+      "quality": "standard",
+      "expected_credits": 45.5
+    }
+  },
+  {
+    "id": "V06",
+    "product": "saree",
+    "axes": {
+      "environment": "rooftop",
+      "lighting": "practical",
+      "camera": "orbit",
+      "concept": "gifting",
+      "grade": "cool"
+    },
+    "axis_labels": {
+      "environment": "City Rooftop at Night",
+      "lighting": "Festive practicals",
+      "camera": "Slow orbit",
+      "concept": "Gifting",
+      "grade": "Cool editorial"
+    },
+    "prompt": "A model wearing the exact saree from the reference image stands in a city rooftop terrace at night, with a glass safety railing, the lit skyline and neon signage falling away into bokeh behind her, under cool blue ambient light. The scene is lit by warm festive practical lights and candle glow scattered through the scene, sparkling highlights. The camera orbits slowly around her by a few degrees, revealing the drape from a changing angle. She moves naturally and the pallu drifts gently. The mood is a considered gift -- warm, personal and quietly premium. Colour grade is cool and editorial in the shadows, while the garment colour itself stays accurate. Cinematic premium fashion advertisement, shallow depth of field on the background only, vertical 9:16 framing.\n\nPRODUCT ACCURACY - CRITICAL: The saree must remain EXACTLY as in the reference image. Preserve the exact colour, dye tone, pattern, print placement, motif scale, fabric texture, weave, silhouette, construction and the pallu, border motif, pleats and the way the drape falls. Do not redesign, restyle, recolour, embellish, resize or replace the saree or any part of it. Only the background, lighting and camera may change.\n\nAvoid: changing the saree colour, pattern, texture or construction; substituting a different garment; adding logos or text; distorted hands or face; flickering fabric; warped patterns; extra limbs.",
+    "ekly_settings": {
+      "model": "Kling AI Video Pro",
+      "reference_image": "input/reference.png",
+      "aspect": "9:16",
+      "duration_s": 5,
+      "quality": "standard",
+      "expected_credits": 45.5
+    }
+  }
+]

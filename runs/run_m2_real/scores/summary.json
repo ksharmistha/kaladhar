@@ -1,0 +1,94 @@
+[
+  {
+    "id": "BASELINE-courtyard",
+    "brief_id": null,
+    "fidelity_mean": 71.23,
+    "fidelity_min": 61.06,
+    "fidelity_std": 7.47,
+    "worst_frame": {
+      "frame": 85,
+      "t": 2.833,
+      "fidelity": 61.06
+    },
+    "means": {
+      "delta_e2000": 3.242,
+      "weave_distance": 0.2047,
+      "clip_cosine": 0.91,
+      "ssim": 0.2216
+    },
+    "motion": {
+      "mean": 0.04109624773263931,
+      "max": 0.05598114803433418,
+      "std": 0.008862263523042202
+    }
+  },
+  {
+    "id": "MANDAP-dusk",
+    "brief_id": null,
+    "fidelity_mean": 71.77,
+    "fidelity_min": 65.09,
+    "fidelity_std": 3.85,
+    "worst_frame": {
+      "frame": 130,
+      "t": 4.333,
+      "fidelity": 65.09
+    },
+    "means": {
+      "delta_e2000": 5.392,
+      "weave_distance": 0.1969,
+      "clip_cosine": 0.9377,
+      "ssim": 0.4041
+    },
+    "motion": {
+      "mean": 0.02683207206428051,
+      "max": 0.12277568876743317,
+      "std": 0.016491258516907692
+    }
+  },
+  {
+    "id": "MANSION-marble",
+    "brief_id": null,
+    "fidelity_mean": 44.89,
+    "fidelity_min": 37.87,
+    "fidelity_std": 7.99,
+    "worst_frame": {
+      "frame": 5,
+      "t": 0.167,
+      "fidelity": 37.87
+    },
+    "means": {
+      "delta_e2000": 8.979,
+      "weave_distance": 0.2788,
+      "clip_cosine": 0.8765,
+      "ssim": 0.1405
+    },
+    "motion": {
+      "mean": 0.02144700661301613,
+      "max": 0.26828864216804504,
+      "std": 0.02886703796684742
+    }
+  },
+  {
+    "id": "ROOFTOP-night",
+    "brief_id": null,
+    "fidelity_mean": 75.57,
+    "fidelity_min": 71.28,
+    "fidelity_std": 3.39,
+    "worst_frame": {
+      "frame": 130,
+      "t": 4.333,
+      "fidelity": 71.28
+    },
+    "means": {
+      "delta_e2000": 4.877,
+      "weave_distance": 0.115,
+      "clip_cosine": 0.9411,
+      "ssim": 0.2189
+    },
+    "motion": {
+      "mean": 0.013153426349163055,
+      "max": 0.051806043833494186,
+      "std": 0.01328912004828453
+    }
+  }
+]

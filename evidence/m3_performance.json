@@ -1,0 +1,95 @@
+{
+  "run_id": "run_m2_real",
+  "stage_seconds": {
+    "validate": 0.02,
+    "preprocess": 0.145,
+    "segment": 5.682,
+    "signature": 3.455,
+    "plan_briefs": 0.003,
+    "score_all": 180.037,
+    "diversity_embed": 5.533,
+    "export": 26.283
+  },
+  "rollups_excluded": [
+    "ingest_total"
+  ],
+  "total_automated_seconds": 221.158,
+  "ranked_stages": [
+    {
+      "stage": "score_all",
+      "seconds": 180.037,
+      "share_pct": 81.4
+    },
+    {
+      "stage": "export",
+      "seconds": 26.283,
+      "share_pct": 11.9
+    },
+    {
+      "stage": "segment",
+      "seconds": 5.682,
+      "share_pct": 2.6
+    },
+    {
+      "stage": "diversity_embed",
+      "seconds": 5.533,
+      "share_pct": 2.5
+    },
+    {
+      "stage": "signature",
+      "seconds": 3.455,
+      "share_pct": 1.6
+    },
+    {
+      "stage": "preprocess",
+      "seconds": 0.145,
+      "share_pct": 0.1
+    },
+    {
+      "stage": "validate",
+      "seconds": 0.02,
+      "share_pct": 0.0
+    },
+    {
+      "stage": "plan_briefs",
+      "seconds": 0.003,
+      "share_pct": 0.0
+    }
+  ],
+  "dominant_stage": "score_all",
+  "clips_processed": 4,
+  "exports_produced": 3,
+  "seconds_per_clip_scoring": 45.01,
+  "seconds_per_export": 8.76,
+  "warm_cache_repeat": {
+    "segment_calls_seconds": [
+      4.697,
+      0.587,
+      0.505
+    ],
+    "clip_embed_calls_seconds": [
+      1.998,
+      0.051,
+      0.05
+    ]
+  },
+  "segmentation_resolution_optimisation": {
+    "measured_on": "real video frame from the first imported clip",
+    "full_res_size": [
+      768,
+      1152
+    ],
+    "full_res_seconds": 0.587,
+    "reduced_size": [
+      341,
+      512
+    ],
+    "reduced_seconds": 0.468,
+    "speedup_x": 1.25,
+    "garment_fraction_full": 0.3788,
+    "garment_fraction_reduced": 0.3824
+  },
+  "frame_stride": 5,
+  "frames_scored_per_clip": 31,
+  "excluded": "Ekly generation time is a manual web-interface step with no API and was never measured."
+}

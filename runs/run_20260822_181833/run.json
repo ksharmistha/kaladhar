@@ -1,0 +1,93 @@
+{
+  "run_id": "run_20260822_181833",
+  "created": "2026-08-22 18:18:33",
+  "state": "PREPROCESSED",
+  "history": [
+    {
+      "state": "PREPROCESSED",
+      "at": "18:18:42",
+      "note": "ingested upload.png"
+    },
+    {
+      "state": "PREPROCESSED",
+      "at": "18:24:02",
+      "note": "ingested upload.png"
+    }
+  ],
+  "timings": {
+    "validate": 0.03,
+    "preprocess": 0.201,
+    "segment": 3.827,
+    "signature": 2.528,
+    "ingest_total": 6.676
+  },
+  "upload": {
+    "filename": "pngtree-3d-women-kurti-with-pant-amp-dupatta-png-image_14768250.png",
+    "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_181833\\input\\upload.png",
+    "validation": {
+      "ok": true,
+      "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_181833\\input\\upload.png",
+      "errors": [],
+      "warnings": [
+        "Aspect 1.00 is outside the usual portrait range 0.5-0.9.",
+        "Colour mode P will be converted to RGB."
+      ],
+      "info": {
+        "file_size": "607.5 KB",
+        "format": "PNG",
+        "dimensions": "2500x2500",
+        "mode": "P",
+        "megapixels": 6.25,
+        "aspect": "1.000"
+      }
+    }
+  },
+  "source": {
+    "original_name": "upload.png",
+    "validation": {
+      "ok": true,
+      "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_181833\\input\\upload.png",
+      "errors": [],
+      "warnings": [
+        "Aspect 1.00 is outside the usual portrait range 0.5-0.9.",
+        "Colour mode P will be converted to RGB."
+      ],
+      "info": {
+        "file_size": "607.5 KB",
+        "format": "PNG",
+        "dimensions": "2500x2500",
+        "mode": "P",
+        "megapixels": 6.25,
+        "aspect": "1.000"
+      }
+    },
+    "working_size": [
+      1152,
+      1152
+    ],
+    "reference_size": [
+      1152,
+      1152
+    ],
+    "mask": {
+      "subject_fraction": 0.1841,
+      "garment_fraction": 0.1095,
+      "notes": [
+        "Garment mask is a heuristic refinement of the rembg subject mask, not a trained garment segmenter."
+      ]
+    },
+    "palette_hex": [
+      "#e4e3df",
+      "#bcb7b0",
+      "#897866",
+      "#3d281b",
+      "#9d442c"
+    ],
+    "border_patch_box": [
+      466,
+      525,
+      128,
+      128
+    ]
+  }
+}

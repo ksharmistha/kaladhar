@@ -1,0 +1,76 @@
+{
+  "run_id": "run_m2_real",
+  "exports": [
+    {
+      "id": "BASELINE-courtyard",
+      "file": "BASELINE-courtyard_1080x1920.mp4",
+      "width": 1080,
+      "height": 1920,
+      "aspect": 0.5625,
+      "is_9_16": true,
+      "is_1080x1920": true,
+      "duration_s": 5.1,
+      "fps": 30.0,
+      "frame_count": 153,
+      "file_mb": 6.37,
+      "codec": "h264 (High) (avc1 / 0x31637661)",
+      "pix_fmt": "yuv420p",
+      "container_brand": "isom",
+      "fit_mode": "crop",
+      "fit_rationale": "crop keeps 100.00% of the garment across sampled frames (>= 99.5% required), so the full screen is used with no product loss",
+      "conforms": true
+    },
+    {
+      "id": "MANDAP-dusk",
+      "file": "MANDAP-dusk_1080x1920.mp4",
+      "width": 1080,
+      "height": 1920,
+      "aspect": 0.5625,
+      "is_9_16": true,
+      "is_1080x1920": true,
+      "duration_s": 5.1,
+      "fps": 30.0,
+      "frame_count": 153,
+      "file_mb": 6.99,
+      "codec": "h264 (High) (avc1 / 0x31637661)",
+      "pix_fmt": "yuv420p",
+      "container_brand": "isom",
+      "fit_mode": "crop",
+      "fit_rationale": "crop keeps 100.00% of the garment across sampled frames (>= 99.5% required), so the full screen is used with no product loss",
+      "conforms": true
+    },
+    {
+      "id": "ROOFTOP-night",
+      "file": "ROOFTOP-night_1080x1920.mp4",
+      "width": 1080,
+      "height": 1920,
+      "aspect": 0.5625,
+      "is_9_16": true,
+      "is_1080x1920": true,
+      "duration_s": 5.1,
+      "fps": 30.0,
+      "frame_count": 153,
+      "file_mb": 3.7,
+      "codec": "h264 (High) (avc1 / 0x31637661)",
+      "pix_fmt": "yuv420p",
+      "container_brand": "isom",
+      "fit_mode": "crop",
+      "fit_rationale": "crop keeps 100.00% of the garment across sampled frames (>= 99.5% required), so the full screen is used with no product loss",
+      "conforms": true
+    }
+  ],
+  "all_conform": true,
+  "delivery_target": {
+    "width": 1080,
+    "height": 1920,
+    "aspect": 0.5625,
+    "placements": [
+      "Instagram Reels",
+      "Instagram Stories",
+      "Facebook Reels",
+      "Meta vertical feed",
+      "YouTube Shorts"
+    ]
+  },
+  "verification": "Resolution, aspect, duration, fps and frame count read back from the written files with probe(); codec, pixel format and container brand read with ffmpeg."
+}

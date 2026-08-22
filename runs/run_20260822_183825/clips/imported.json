@@ -1,0 +1,22 @@
+[
+  {
+    "id": "AI Generated Video --- A model wearing the exact kurti from the reference image sta…",
+    "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_183825\\clips\\AI Generated Video --- A model wearing the exact kurti from the reference image sta….mp4",
+    "brief_id": null,
+    "matched_brief": false,
+    "probe": {
+      "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_183825\\clips\\AI Generated Video --- A model wearing the exact kurti from the reference image sta….mp4",
+      "width": 960,
+      "height": 960,
+      "fps": 30.0,
+      "frame_count": 153,
+      "duration_s": 5.1,
+      "aspect": 1.0,
+      "file_mb": 8.77,
+      "is_9_16": false,
+      "is_1080x1920": false
+    },
+    "format_ok": false,
+    "format_note": "Delivered at 960x960 (aspect 1.000), not 9:16. Conversion to 1080x1920 happens at export."
+  }
+]

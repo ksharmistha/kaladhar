@@ -1,0 +1,76 @@
+{
+  "gate1_passing": [
+    {
+      "id": "BASELINE-courtyard",
+      "fidelity_mean": 71.23,
+      "fidelity_min": 61.06,
+      "reasons": [],
+      "clip": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\BASELINE-courtyard.mp4"
+    },
+    {
+      "id": "MANDAP-dusk",
+      "fidelity_mean": 71.77,
+      "fidelity_min": 65.09,
+      "reasons": [],
+      "clip": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\MANDAP-dusk.mp4"
+    },
+    {
+      "id": "ROOFTOP-night",
+      "fidelity_mean": 75.57,
+      "fidelity_min": 71.28,
+      "reasons": [],
+      "clip": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\ROOFTOP-night.mp4"
+    }
+  ],
+  "gate1_rejected": [
+    {
+      "id": "MANSION-marble",
+      "fidelity_mean": 44.89,
+      "fidelity_min": 37.87,
+      "reasons": [
+        "fidelity_mean 44.9 below threshold 51.0",
+        "motion spike 0.268 -- likely flicker or a cut"
+      ],
+      "clip": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\MANSION-marble.mp4"
+    }
+  ],
+  "threshold_used": 51.0,
+  "diversity": {
+    "requested_k": 6,
+    "pool_size": 3,
+    "selected_ids": [
+      "BASELINE-courtyard",
+      "MANDAP-dusk",
+      "ROOFTOP-night"
+    ],
+    "rejected_ids": [],
+    "diversity_score_selected": 10.97,
+    "diversity_score_pool": 10.97,
+    "diversity_gain": 0.0,
+    "min_pairwise_distance_selected": 0.0931,
+    "selection_trace": [],
+    "pairwise_distance_matrix": [
+      [
+        0.0,
+        0.11469999700784683,
+        0.09309999644756317
+      ],
+      [
+        0.11469999700784683,
+        0.0,
+        0.12129999697208405
+      ],
+      [
+        0.09309999644756317,
+        0.12129999697208405,
+        0.0
+      ]
+    ],
+    "ids": [
+      "BASELINE-courtyard",
+      "MANDAP-dusk",
+      "ROOFTOP-night"
+    ],
+    "note": "Selection ratio is limited by available Ekly credits, not by design. With a pool close to k, this demonstrates the mechanism rather than aggressive filtering."
+  }
+}

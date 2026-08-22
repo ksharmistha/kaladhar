@@ -1,0 +1,82 @@
+[
+  {
+    "id": "BASELINE-courtyard",
+    "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\BASELINE-courtyard.mp4",
+    "brief_id": null,
+    "matched_brief": false,
+    "probe": {
+      "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\BASELINE-courtyard.mp4",
+      "width": 768,
+      "height": 1152,
+      "fps": 30.0,
+      "frame_count": 153,
+      "duration_s": 5.1,
+      "aspect": 0.6667,
+      "file_mb": 12.31,
+      "is_9_16": false,
+      "is_1080x1920": false
+    },
+    "format_ok": false,
+    "format_note": "Delivered at 768x1152 (aspect 0.667), not 9:16. Conversion to 1080x1920 happens at export."
+  },
+  {
+    "id": "MANDAP-dusk",
+    "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\MANDAP-dusk.mp4",
+    "brief_id": null,
+    "matched_brief": false,
+    "probe": {
+      "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\MANDAP-dusk.mp4",
+      "width": 768,
+      "height": 1152,
+      "fps": 30.0,
+      "frame_count": 153,
+      "duration_s": 5.1,
+      "aspect": 0.6667,
+      "file_mb": 14.08,
+      "is_9_16": false,
+      "is_1080x1920": false
+    },
+    "format_ok": false,
+    "format_note": "Delivered at 768x1152 (aspect 0.667), not 9:16. Conversion to 1080x1920 happens at export."
+  },
+  {
+    "id": "MANSION-marble",
+    "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\MANSION-marble.mp4",
+    "brief_id": null,
+    "matched_brief": false,
+    "probe": {
+      "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\MANSION-marble.mp4",
+      "width": 768,
+      "height": 1152,
+      "fps": 30.0,
+      "frame_count": 153,
+      "duration_s": 5.1,
+      "aspect": 0.6667,
+      "file_mb": 7.74,
+      "is_9_16": false,
+      "is_1080x1920": false
+    },
+    "format_ok": false,
+    "format_note": "Delivered at 768x1152 (aspect 0.667), not 9:16. Conversion to 1080x1920 happens at export."
+  },
+  {
+    "id": "ROOFTOP-night",
+    "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\ROOFTOP-night.mp4",
+    "brief_id": null,
+    "matched_brief": false,
+    "probe": {
+      "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_m2_real\\clips\\ROOFTOP-night.mp4",
+      "width": 768,
+      "height": 1152,
+      "fps": 30.0,
+      "frame_count": 153,
+      "duration_s": 5.1,
+      "aspect": 0.6667,
+      "file_mb": 6.37,
+      "is_9_16": false,
+      "is_1080x1920": false
+    },
+    "format_ok": false,
+    "format_note": "Delivered at 768x1152 (aspect 0.667), not 9:16. Conversion to 1080x1920 happens at export."
+  }
+]

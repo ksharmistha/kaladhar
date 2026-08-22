@@ -1,0 +1,25 @@
+[
+  {
+    "id": "AI Generated Video --- A model wearing the exact kurti from the reference image sta…",
+    "brief_id": null,
+    "fidelity_mean": 55.04,
+    "fidelity_min": 38.67,
+    "fidelity_std": 7.48,
+    "worst_frame": {
+      "frame": 45,
+      "t": 1.5,
+      "fidelity": 38.67
+    },
+    "means": {
+      "delta_e2000": 5.002,
+      "weave_distance": 0.2611,
+      "clip_cosine": 0.8479,
+      "ssim": 0.1634
+    },
+    "motion": {
+      "mean": 0.012241524644196033,
+      "max": 0.040702491998672485,
+      "std": 0.00855357013642788
+    }
+  }
+]

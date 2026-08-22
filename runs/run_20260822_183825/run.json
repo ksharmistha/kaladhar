@@ -1,0 +1,123 @@
+{
+  "run_id": "run_20260822_183825",
+  "created": "2026-08-22 18:38:25",
+  "state": "EXPORTED",
+  "history": [
+    {
+      "state": "PREPROCESSED",
+      "at": "18:38:31",
+      "note": "ingested upload.png"
+    },
+    {
+      "state": "AWAITING_CLIPS",
+      "at": "18:39:17",
+      "note": "6 briefs ready for manual Ekly generation"
+    },
+    {
+      "state": "CLIPS_IMPORTED",
+      "at": "18:40:53",
+      "note": "1 clips imported"
+    },
+    {
+      "state": "SCORED",
+      "at": "18:41:37",
+      "note": "1 clips scored"
+    },
+    {
+      "state": "SELECTED",
+      "at": "18:42:47",
+      "note": "1 selected"
+    },
+    {
+      "state": "EXPORTED",
+      "at": "18:43:06",
+      "note": "1 exported"
+    }
+  ],
+  "timings": {
+    "validate": 0.044,
+    "preprocess": 0.352,
+    "segment": 1.219,
+    "signature": 0.666,
+    "ingest_total": 2.398,
+    "plan_briefs": 0.021,
+    "score_all": 39.175,
+    "export": 8.376
+  },
+  "upload": {
+    "filename": "pngtree-3d-women-kurti-with-pant-amp-dupatta-png-image_14768250.png",
+    "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_183825\\input\\upload.png",
+    "validation": {
+      "ok": true,
+      "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_183825\\input\\upload.png",
+      "errors": [],
+      "warnings": [
+        "Aspect 1.00 is outside the usual portrait range 0.5-0.9.",
+        "Colour mode P will be converted to RGB."
+      ],
+      "info": {
+        "file_size": "607.5 KB",
+        "format": "PNG",
+        "dimensions": "2500x2500",
+        "mode": "P",
+        "megapixels": 6.25,
+        "aspect": "1.000"
+      }
+    }
+  },
+  "source": {
+    "original_name": "upload.png",
+    "validation": {
+      "ok": true,
+      "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_183825\\input\\upload.png",
+      "errors": [],
+      "warnings": [
+        "Aspect 1.00 is outside the usual portrait range 0.5-0.9.",
+        "Colour mode P will be converted to RGB."
+      ],
+      "info": {
+        "file_size": "607.5 KB",
+        "format": "PNG",
+        "dimensions": "2500x2500",
+        "mode": "P",
+        "megapixels": 6.25,
+        "aspect": "1.000"
+      }
+    },
+    "working_size": [
+      1152,
+      1152
+    ],
+    "reference_size": [
+      1152,
+      1152
+    ],
+    "mask": {
+      "subject_fraction": 0.1841,
+      "garment_fraction": 0.1095,
+      "notes": [
+        "Garment mask is a heuristic refinement of the rembg subject mask, not a trained garment segmenter."
+      ]
+    },
+    "palette_hex": [
+      "#e4e3df",
+      "#bcb7b0",
+      "#897866",
+      "#3d281b",
+      "#9d442c"
+    ],
+    "border_patch_box": [
+      466,
+      525,
+      128,
+      128
+    ]
+  },
+  "product": "kurti",
+  "plan": {
+    "n_briefs": 6,
+    "product": "kurti",
+    "min_axis_diff_achieved": 4,
+    "expected_credits": 273.0
+  }
+}

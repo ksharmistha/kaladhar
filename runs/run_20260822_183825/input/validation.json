@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "path": "C:\\Users\\Rahil Ahmed\\Desktop\\GIGCB\\runs\\run_20260822_183825\\input\\upload.png",
+  "errors": [],
+  "warnings": [
+    "Aspect 1.00 is outside the usual portrait range 0.5-0.9.",
+    "Colour mode P will be converted to RGB."
+  ],
+  "info": {
+    "file_size": "607.5 KB",
+    "format": "PNG",
+    "dimensions": "2500x2500",
+    "mode": "P",
+    "megapixels": 6.25,
+    "aspect": "1.000"
+  }
+}

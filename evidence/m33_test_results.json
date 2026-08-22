@@ -1,0 +1,1309 @@
+{
+  "saree": {
+    "run_id": "run_m2_real",
+    "label": "Saree \u2014 reference run",
+    "state": "EXPORTED",
+    "product": "saree",
+    "source": {
+      "file": "saree_source.jpg",
+      "dims": "500x724",
+      "garment_fraction": 0.3573,
+      "subject_fraction": 0.3971,
+      "palette": [
+        "#31a5bd",
+        "#99c6ce",
+        "#106784",
+        "#4b7c81",
+        "#0e3144"
+      ],
+      "patch_box": [
+        252,
+        430,
+        128,
+        128
+      ]
+    },
+    "threshold_used": 51.0,
+    "calibrated_here": true,
+    "calibration": {
+      "anchors": [
+        {
+          "delta_e2000": 0.0,
+          "weave_distance": 0.0,
+          "clip_cosine": 1.0,
+          "ssim": 1.0,
+          "fidelity": 100.0,
+          "anchor": "source (identity)",
+          "meaning": "upper bound -- the product itself"
+        },
+        {
+          "delta_e2000": 3.603,
+          "weave_distance": 0.0306,
+          "clip_cosine": 0.9965,
+          "ssim": 0.9978,
+          "fidelity": 93.14,
+          "anchor": "hue shift 5 deg",
+          "meaning": "dye change, a customer-visible misrepresentation"
+        },
+        {
+          "delta_e2000": 8.276,
+          "weave_distance": 0.0779,
+          "clip_cosine": 0.9858,
+          "ssim": 0.9912,
+          "fidelity": 76.13,
+          "anchor": "hue shift 10 deg",
+          "meaning": "dye change, a customer-visible misrepresentation"
+        },
+        {
+          "delta_e2000": 11.58,
+          "weave_distance": 0.1721,
+          "clip_cosine": 0.9693,
+          "ssim": 0.9686,
+          "fidelity": 59.77,
+          "anchor": "hue shift 20 deg",
+          "meaning": "dye change, a customer-visible misrepresentation"
+        },
+        {
+          "delta_e2000": 1.664,
+          "weave_distance": 0.3033,
+          "clip_cosine": 0.972,
+          "ssim": 0.6848,
+          "fidelity": 78.34,
+          "anchor": "blur k=5",
+          "meaning": "weave collapse -- flat, plastic-looking fabric"
+        },
+        {
+          "delta_e2000": 1.463,
+          "weave_distance": 0.3506,
+          "clip_cosine": 0.9549,
+          "ssim": 0.4834,
+          "fidelity": 73.06,
+          "anchor": "blur k=9",
+          "meaning": "weave collapse -- flat, plastic-looking fabric"
+        },
+        {
+          "delta_e2000": 5.602,
+          "weave_distance": 0.0862,
+          "clip_cosine": 0.9836,
+          "ssim": 0.981,
+          "fidelity": 83.33,
+          "anchor": "desaturate 0.6",
+          "meaning": "washed-out dye"
+        }
+      ],
+      "real_clips": [
+        {
+          "id": "BASELINE-courtyard",
+          "mean": 71.23,
+          "min": 61.06
+        },
+        {
+          "id": "MANDAP-dusk",
+          "mean": 71.77,
+          "min": 65.09
+        },
+        {
+          "id": "MANSION-marble",
+          "mean": 44.89,
+          "min": 37.87
+        },
+        {
+          "id": "ROOFTOP-night",
+          "mean": 75.57,
+          "min": 71.28
+        }
+      ],
+      "proposed_threshold": 51.0,
+      "basis": "constructed limit clip -- colour pushed to dE2000 8.28 (a 10-degree hue shift, a visible dye change) and weave to distance 0.303 (blur k=5, weave collapse), with identity and structure held at the median of the real clips. A clip at or below this score has drifted as far as a customer-visible misrepresentation. NOTE: the weakest real clip (44.9) does NOT clear this floor.",
+      "sample_size_real_clips": 4,
+      "caveat": "Calibrated from 4 real clip(s) plus controlled degradations of the source. Identity and structure are held at the median across real clips. The anchors fix the scale; they are not a substitute for more real generations. Re-run after each new batch."
+    },
+    "imported": [
+      {
+        "id": "BASELINE-courtyard",
+        "w": 768,
+        "h": 1152,
+        "aspect": 0.6667,
+        "dur": 5.1,
+        "mb": 12.31,
+        "format_ok": false
+      },
+      {
+        "id": "MANDAP-dusk",
+        "w": 768,
+        "h": 1152,
+        "aspect": 0.6667,
+        "dur": 5.1,
+        "mb": 14.08,
+        "format_ok": false
+      },
+      {
+        "id": "MANSION-marble",
+        "w": 768,
+        "h": 1152,
+        "aspect": 0.6667,
+        "dur": 5.1,
+        "mb": 7.74,
+        "format_ok": false
+      },
+      {
+        "id": "ROOFTOP-night",
+        "w": 768,
+        "h": 1152,
+        "aspect": 0.6667,
+        "dur": 5.1,
+        "mb": 6.37,
+        "format_ok": false
+      }
+    ],
+    "clips": [
+      {
+        "id": "BASELINE-courtyard",
+        "mean": 71.23,
+        "min": 61.06,
+        "std": 7.47,
+        "worst": {
+          "frame": 85,
+          "t": 2.833,
+          "fidelity": 61.06
+        },
+        "means": {
+          "delta_e2000": 3.242,
+          "weave_distance": 0.2047,
+          "clip_cosine": 0.91,
+          "ssim": 0.2216
+        },
+        "motion": {
+          "mean": 0.04109624773263931,
+          "max": 0.05598114803433418,
+          "std": 0.008862263523042202
+        },
+        "frames_scored": 31,
+        "stride": 5,
+        "delivered": "768x1152",
+        "mask_peak": 0.3781,
+        "mask_min": 0.2536,
+        "mask_mean": 0.3021516129032258,
+        "series": [
+          {
+            "t": 0.0,
+            "fid": 87.95,
+            "mask": 0.3724
+          },
+          {
+            "t": 0.167,
+            "fid": 85.1,
+            "mask": 0.3774
+          },
+          {
+            "t": 0.333,
+            "fid": 85.11,
+            "mask": 0.3781
+          },
+          {
+            "t": 0.5,
+            "fid": 85.91,
+            "mask": 0.3762
+          },
+          {
+            "t": 0.667,
+            "fid": 81.97,
+            "mask": 0.3721
+          },
+          {
+            "t": 0.833,
+            "fid": 81.74,
+            "mask": 0.3675
+          },
+          {
+            "t": 1.0,
+            "fid": 78.66,
+            "mask": 0.3619
+          },
+          {
+            "t": 1.167,
+            "fid": 67.7,
+            "mask": 0.3527
+          },
+          {
+            "t": 1.333,
+            "fid": 74.03,
+            "mask": 0.3434
+          },
+          {
+            "t": 1.5,
+            "fid": 72.11,
+            "mask": 0.33
+          },
+          {
+            "t": 1.667,
+            "fid": 70.73,
+            "mask": 0.3152
+          },
+          {
+            "t": 1.833,
+            "fid": 68.7,
+            "mask": 0.3054
+          },
+          {
+            "t": 2.0,
+            "fid": 64.24,
+            "mask": 0.2926
+          },
+          {
+            "t": 2.167,
+            "fid": 69.18,
+            "mask": 0.282
+          },
+          {
+            "t": 2.333,
+            "fid": 64.93,
+            "mask": 0.2772
+          },
+          {
+            "t": 2.5,
+            "fid": 62.92,
+            "mask": 0.273
+          },
+          {
+            "t": 2.667,
+            "fid": 64.15,
+            "mask": 0.2667
+          },
+          {
+            "t": 2.833,
+            "fid": 61.06,
+            "mask": 0.2607
+          },
+          {
+            "t": 3.0,
+            "fid": 63.48,
+            "mask": 0.2577
+          },
+          {
+            "t": 3.167,
+            "fid": 62.9,
+            "mask": 0.2558
+          },
+          {
+            "t": 3.333,
+            "fid": 65.62,
+            "mask": 0.255
+          },
+          {
+            "t": 3.5,
+            "fid": 68.97,
+            "mask": 0.2536
+          },
+          {
+            "t": 3.667,
+            "fid": 69.84,
+            "mask": 0.2542
+          },
+          {
+            "t": 3.833,
+            "fid": 67.78,
+            "mask": 0.2567
+          },
+          {
+            "t": 4.0,
+            "fid": 70.88,
+            "mask": 0.2593
+          },
+          {
+            "t": 4.167,
+            "fid": 67.01,
+            "mask": 0.264
+          },
+          {
+            "t": 4.333,
+            "fid": 67.76,
+            "mask": 0.2676
+          },
+          {
+            "t": 4.5,
+            "fid": 70.64,
+            "mask": 0.2786
+          },
+          {
+            "t": 4.667,
+            "fid": 68.91,
+            "mask": 0.2848
+          },
+          {
+            "t": 4.833,
+            "fid": 69.19,
+            "mask": 0.2874
+          },
+          {
+            "t": 5.0,
+            "fid": 69.05,
+            "mask": 0.2875
+          }
+        ]
+      },
+      {
+        "id": "MANDAP-dusk",
+        "mean": 71.77,
+        "min": 65.09,
+        "std": 3.85,
+        "worst": {
+          "frame": 130,
+          "t": 4.333,
+          "fidelity": 65.09
+        },
+        "means": {
+          "delta_e2000": 5.392,
+          "weave_distance": 0.1969,
+          "clip_cosine": 0.9377,
+          "ssim": 0.4041
+        },
+        "motion": {
+          "mean": 0.02683207206428051,
+          "max": 0.12277568876743317,
+          "std": 0.016491258516907692
+        },
+        "frames_scored": 31,
+        "stride": 5,
+        "delivered": "768x1152",
+        "mask_peak": 0.3834,
+        "mask_min": 0.1221,
+        "mask_mean": 0.15968064516129032,
+        "series": [
+          {
+            "t": 0.0,
+            "fid": 82.7,
+            "mask": 0.3834
+          },
+          {
+            "t": 0.167,
+            "fid": 73.2,
+            "mask": 0.1853
+          },
+          {
+            "t": 0.333,
+            "fid": 75.84,
+            "mask": 0.1823
+          },
+          {
+            "t": 0.5,
+            "fid": 75.03,
+            "mask": 0.1814
+          },
+          {
+            "t": 0.667,
+            "fid": 75.93,
+            "mask": 0.1791
+          },
+          {
+            "t": 0.833,
+            "fid": 75.32,
+            "mask": 0.1773
+          },
+          {
+            "t": 1.0,
+            "fid": 73.47,
+            "mask": 0.1747
+          },
+          {
+            "t": 1.167,
+            "fid": 73.18,
+            "mask": 0.1718
+          },
+          {
+            "t": 1.333,
+            "fid": 74.91,
+            "mask": 0.1698
+          },
+          {
+            "t": 1.5,
+            "fid": 69.36,
+            "mask": 0.1669
+          },
+          {
+            "t": 1.667,
+            "fid": 73.46,
+            "mask": 0.1641
+          },
+          {
+            "t": 1.833,
+            "fid": 74.12,
+            "mask": 0.162
+          },
+          {
+            "t": 2.0,
+            "fid": 72.3,
+            "mask": 0.1589
+          },
+          {
+            "t": 2.167,
+            "fid": 74.03,
+            "mask": 0.1569
+          },
+          {
+            "t": 2.333,
+            "fid": 72.9,
+            "mask": 0.1545
+          },
+          {
+            "t": 2.5,
+            "fid": 73.63,
+            "mask": 0.1527
+          },
+          {
+            "t": 2.667,
+            "fid": 72.75,
+            "mask": 0.1509
+          },
+          {
+            "t": 2.833,
+            "fid": 72.51,
+            "mask": 0.1486
+          },
+          {
+            "t": 3.0,
+            "fid": 72.4,
+            "mask": 0.1459
+          },
+          {
+            "t": 3.167,
+            "fid": 71.44,
+            "mask": 0.1438
+          },
+          {
+            "t": 3.333,
+            "fid": 71.49,
+            "mask": 0.1413
+          },
+          {
+            "t": 3.5,
+            "fid": 72.23,
+            "mask": 0.1391
+          },
+          {
+            "t": 3.667,
+            "fid": 70.92,
+            "mask": 0.1366
+          },
+          {
+            "t": 3.833,
+            "fid": 68.84,
+            "mask": 0.1342
+          },
+          {
+            "t": 4.0,
+            "fid": 67.3,
+            "mask": 0.1324
+          },
+          {
+            "t": 4.167,
+            "fid": 66.04,
+            "mask": 0.1307
+          },
+          {
+            "t": 4.333,
+            "fid": 65.09,
+            "mask": 0.1286
+          },
+          {
+            "t": 4.5,
+            "fid": 65.61,
+            "mask": 0.1267
+          },
+          {
+            "t": 4.667,
+            "fid": 65.62,
+            "mask": 0.125
+          },
+          {
+            "t": 4.833,
+            "fid": 67.88,
+            "mask": 0.1231
+          },
+          {
+            "t": 5.0,
+            "fid": 65.22,
+            "mask": 0.1221
+          }
+        ]
+      },
+      {
+        "id": "MANSION-marble",
+        "mean": 44.89,
+        "min": 37.87,
+        "std": 7.99,
+        "worst": {
+          "frame": 5,
+          "t": 0.167,
+          "fidelity": 37.87
+        },
+        "means": {
+          "delta_e2000": 8.979,
+          "weave_distance": 0.2788,
+          "clip_cosine": 0.8765,
+          "ssim": 0.1405
+        },
+        "motion": {
+          "mean": 0.02144700661301613,
+          "max": 0.26828864216804504,
+          "std": 0.02886703796684742
+        },
+        "frames_scored": 31,
+        "stride": 5,
+        "delivered": "768x1152",
+        "mask_peak": 0.3846,
+        "mask_min": 0.0321,
+        "mask_mean": 0.0647258064516129,
+        "series": [
+          {
+            "t": 0.0,
+            "fid": 78.54,
+            "mask": 0.3846
+          },
+          {
+            "t": 0.167,
+            "fid": 37.87,
+            "mask": 0.0321
+          },
+          {
+            "t": 0.333,
+            "fid": 40.62,
+            "mask": 0.0328
+          },
+          {
+            "t": 0.5,
+            "fid": 39.26,
+            "mask": 0.0333
+          },
+          {
+            "t": 0.667,
+            "fid": 38.66,
+            "mask": 0.034
+          },
+          {
+            "t": 0.833,
+            "fid": 40.72,
+            "mask": 0.0348
+          },
+          {
+            "t": 1.0,
+            "fid": 40.49,
+            "mask": 0.0357
+          },
+          {
+            "t": 1.167,
+            "fid": 38.86,
+            "mask": 0.0369
+          },
+          {
+            "t": 1.333,
+            "fid": 38.83,
+            "mask": 0.0377
+          },
+          {
+            "t": 1.5,
+            "fid": 40.65,
+            "mask": 0.0391
+          },
+          {
+            "t": 1.667,
+            "fid": 40.15,
+            "mask": 0.0408
+          },
+          {
+            "t": 1.833,
+            "fid": 39.3,
+            "mask": 0.0428
+          },
+          {
+            "t": 2.0,
+            "fid": 38.04,
+            "mask": 0.0444
+          },
+          {
+            "t": 2.167,
+            "fid": 40.05,
+            "mask": 0.0461
+          },
+          {
+            "t": 2.333,
+            "fid": 40.78,
+            "mask": 0.0483
+          },
+          {
+            "t": 2.5,
+            "fid": 40.54,
+            "mask": 0.051
+          },
+          {
+            "t": 2.667,
+            "fid": 39.49,
+            "mask": 0.0532
+          },
+          {
+            "t": 2.833,
+            "fid": 39.35,
+            "mask": 0.0554
+          },
+          {
+            "t": 3.0,
+            "fid": 42.54,
+            "mask": 0.058
+          },
+          {
+            "t": 3.167,
+            "fid": 44.21,
+            "mask": 0.0612
+          },
+          {
+            "t": 3.333,
+            "fid": 48.24,
+            "mask": 0.0622
+          },
+          {
+            "t": 3.5,
+            "fid": 50.31,
+            "mask": 0.0621
+          },
+          {
+            "t": 3.667,
+            "fid": 48.54,
+            "mask": 0.0636
+          },
+          {
+            "t": 3.833,
+            "fid": 47.63,
+            "mask": 0.0671
+          },
+          {
+            "t": 4.0,
+            "fid": 49.93,
+            "mask": 0.0691
+          },
+          {
+            "t": 4.167,
+            "fid": 48.93,
+            "mask": 0.074
+          },
+          {
+            "t": 4.333,
+            "fid": 50.02,
+            "mask": 0.0758
+          },
+          {
+            "t": 4.5,
+            "fid": 54.28,
+            "mask": 0.0785
+          },
+          {
+            "t": 4.667,
+            "fid": 51.15,
+            "mask": 0.0812
+          },
+          {
+            "t": 4.833,
+            "fid": 50.71,
+            "mask": 0.0835
+          },
+          {
+            "t": 5.0,
+            "fid": 52.91,
+            "mask": 0.0872
+          }
+        ]
+      },
+      {
+        "id": "ROOFTOP-night",
+        "mean": 75.57,
+        "min": 71.28,
+        "std": 3.39,
+        "worst": {
+          "frame": 130,
+          "t": 4.333,
+          "fidelity": 71.28
+        },
+        "means": {
+          "delta_e2000": 4.877,
+          "weave_distance": 0.115,
+          "clip_cosine": 0.9411,
+          "ssim": 0.2189
+        },
+        "motion": {
+          "mean": 0.013153426349163055,
+          "max": 0.051806043833494186,
+          "std": 0.01328912004828453
+        },
+        "frames_scored": 31,
+        "stride": 5,
+        "delivered": "768x1152",
+        "mask_peak": 0.3838,
+        "mask_min": 0.2614,
+        "mask_mean": 0.2875935483870968,
+        "series": [
+          {
+            "t": 0.0,
+            "fid": 84.32,
+            "mask": 0.3838
+          },
+          {
+            "t": 0.167,
+            "fid": 86.42,
+            "mask": 0.3697
+          },
+          {
+            "t": 0.333,
+            "fid": 81.4,
+            "mask": 0.3546
+          },
+          {
+            "t": 0.5,
+            "fid": 78.23,
+            "mask": 0.3336
+          },
+          {
+            "t": 0.667,
+            "fid": 76.35,
+            "mask": 0.3202
+          },
+          {
+            "t": 0.833,
+            "fid": 78.14,
+            "mask": 0.3104
+          },
+          {
+            "t": 1.0,
+            "fid": 73.2,
+            "mask": 0.3033
+          },
+          {
+            "t": 1.167,
+            "fid": 73.28,
+            "mask": 0.2966
+          },
+          {
+            "t": 1.333,
+            "fid": 73.91,
+            "mask": 0.2916
+          },
+          {
+            "t": 1.5,
+            "fid": 76.63,
+            "mask": 0.2877
+          },
+          {
+            "t": 1.667,
+            "fid": 75.68,
+            "mask": 0.2847
+          },
+          {
+            "t": 1.833,
+            "fid": 76.17,
+            "mask": 0.2826
+          },
+          {
+            "t": 2.0,
+            "fid": 74.46,
+            "mask": 0.2802
+          },
+          {
+            "t": 2.167,
+            "fid": 76.15,
+            "mask": 0.276
+          },
+          {
+            "t": 2.333,
+            "fid": 75.18,
+            "mask": 0.2727
+          },
+          {
+            "t": 2.5,
+            "fid": 76.78,
+            "mask": 0.2703
+          },
+          {
+            "t": 2.667,
+            "fid": 71.61,
+            "mask": 0.2684
+          },
+          {
+            "t": 2.833,
+            "fid": 72.93,
+            "mask": 0.266
+          },
+          {
+            "t": 3.0,
+            "fid": 72.6,
+            "mask": 0.2642
+          },
+          {
+            "t": 3.167,
+            "fid": 73.57,
+            "mask": 0.2624
+          },
+          {
+            "t": 3.333,
+            "fid": 76.13,
+            "mask": 0.2614
+          },
+          {
+            "t": 3.5,
+            "fid": 75.24,
+            "mask": 0.2617
+          },
+          {
+            "t": 3.667,
+            "fid": 74.78,
+            "mask": 0.2629
+          },
+          {
+            "t": 3.833,
+            "fid": 73.44,
+            "mask": 0.2631
+          },
+          {
+            "t": 4.0,
+            "fid": 72.0,
+            "mask": 0.2641
+          },
+          {
+            "t": 4.167,
+            "fid": 71.56,
+            "mask": 0.265
+          },
+          {
+            "t": 4.333,
+            "fid": 71.28,
+            "mask": 0.2674
+          },
+          {
+            "t": 4.5,
+            "fid": 73.42,
+            "mask": 0.2699
+          },
+          {
+            "t": 4.667,
+            "fid": 75.36,
+            "mask": 0.2717
+          },
+          {
+            "t": 4.833,
+            "fid": 76.94,
+            "mask": 0.2736
+          },
+          {
+            "t": 5.0,
+            "fid": 75.53,
+            "mask": 0.2756
+          }
+        ]
+      }
+    ],
+    "gate1_pass": [
+      "BASELINE-courtyard",
+      "MANDAP-dusk",
+      "ROOFTOP-night"
+    ],
+    "gate1_reject": [
+      {
+        "id": "MANSION-marble",
+        "reasons": [
+          "fidelity_mean 44.9 below threshold 51.0",
+          "motion spike 0.268 -- likely flicker or a cut"
+        ]
+      }
+    ],
+    "diversity": {
+      "requested_k": 6,
+      "pool_size": 3,
+      "selected_ids": [
+        "BASELINE-courtyard",
+        "MANDAP-dusk",
+        "ROOFTOP-night"
+      ],
+      "rejected_ids": [],
+      "diversity_score_selected": 10.97,
+      "diversity_score_pool": 10.97,
+      "diversity_gain": 0.0,
+      "min_pairwise_distance_selected": 0.0931,
+      "selection_trace": [],
+      "pairwise_distance_matrix": [
+        [
+          0.0,
+          0.11469999700784683,
+          0.09309999644756317
+        ],
+        [
+          0.11469999700784683,
+          0.0,
+          0.12129999697208405
+        ],
+        [
+          0.09309999644756317,
+          0.12129999697208405,
+          0.0
+        ]
+      ],
+      "ids": [
+        "BASELINE-courtyard",
+        "MANDAP-dusk",
+        "ROOFTOP-night"
+      ],
+      "note": "Selection ratio is limited by available Ekly credits, not by design. With a pool close to k, this demonstrates the mechanism rather than aggressive filtering."
+    },
+    "exports": [
+      {
+        "id": "BASELINE-courtyard",
+        "w": 1080,
+        "h": 1920,
+        "aspect": 0.5625,
+        "mb": 6.37,
+        "mode": "crop",
+        "conforms": true,
+        "retention": 1.0
+      },
+      {
+        "id": "MANDAP-dusk",
+        "w": 1080,
+        "h": 1920,
+        "aspect": 0.5625,
+        "mb": 6.99,
+        "mode": "crop",
+        "conforms": true,
+        "retention": 1.0
+      },
+      {
+        "id": "ROOFTOP-night",
+        "w": 1080,
+        "h": 1920,
+        "aspect": 0.5625,
+        "mb": 3.7,
+        "mode": "crop",
+        "conforms": true,
+        "retention": 1.0
+      }
+    ],
+    "diversity_full": {
+      "ids": [
+        "BASELINE-courtyard",
+        "MANDAP-dusk",
+        "MANSION-marble",
+        "ROOFTOP-night"
+      ],
+      "pairwise_cosine_distance": [
+        [
+          0.0,
+          0.11469999700784683,
+          0.19990000128746033,
+          0.09309999644756317
+        ],
+        [
+          0.11469999700784683,
+          0.0,
+          0.1412000060081482,
+          0.12129999697208405
+        ],
+        [
+          0.19990000128746033,
+          0.1412000060081482,
+          0.0,
+          0.19609999656677246
+        ],
+        [
+          0.09309999644756317,
+          0.12129999697208405,
+          0.19609999656677246,
+          0.0
+        ]
+      ],
+      "diversity_all_four": 14.44,
+      "diversity_gate1_passing": 10.97,
+      "most_similar_pair": [
+        "BASELINE-courtyard",
+        "ROOFTOP-night",
+        0.09311223030090332
+      ],
+      "most_distinct_pair": [
+        "BASELINE-courtyard",
+        "MANSION-marble",
+        0.19994640350341797
+      ],
+      "note": "Computed from real generated video embeddings (mean CLIP vector over sampled frames). Not synthetic."
+    },
+    "safecut": [
+      {
+        "applicable": false,
+        "reason": "every scored frame already clears the threshold; nothing to cut",
+        "clip_id": "BASELINE-courtyard",
+        "applied": false
+      },
+      {
+        "applicable": false,
+        "reason": "every scored frame already clears the threshold; nothing to cut",
+        "clip_id": "MANDAP-dusk",
+        "applied": false
+      },
+      {
+        "applicable": false,
+        "reason": "longest passing window is 0.00s, under the 3.0s minimum for a usable ad",
+        "longest_window_s": 0.0,
+        "clip_id": "MANSION-marble",
+        "applied": false
+      },
+      {
+        "applicable": false,
+        "reason": "every scored frame already clears the threshold; nothing to cut",
+        "clip_id": "ROOFTOP-night",
+        "applied": false
+      }
+    ]
+  },
+  "kurti": {
+    "run_id": "run_20260822_183825",
+    "label": "Kurti \u2014 second product type",
+    "state": "EXPORTED",
+    "product": "kurti",
+    "source": {
+      "file": "upload.png",
+      "dims": "2500x2500",
+      "garment_fraction": 0.1095,
+      "subject_fraction": 0.1841,
+      "palette": [
+        "#e4e3df",
+        "#bcb7b0",
+        "#897866",
+        "#3d281b",
+        "#9d442c"
+      ],
+      "patch_box": [
+        466,
+        525,
+        128,
+        128
+      ]
+    },
+    "threshold_used": 51.0,
+    "calibrated_here": false,
+    "calibration": null,
+    "imported": [
+      {
+        "id": "AI Generated Video --- A model wearing the exact kurti from the reference image sta\u2026",
+        "w": 960,
+        "h": 960,
+        "aspect": 1.0,
+        "dur": 5.1,
+        "mb": 8.77,
+        "format_ok": false
+      }
+    ],
+    "clips": [
+      {
+        "id": "AI Generated Video --- A model wearing the exact kurti from the reference image sta\u2026",
+        "mean": 55.04,
+        "min": 38.67,
+        "std": 7.48,
+        "worst": {
+          "frame": 45,
+          "t": 1.5,
+          "fidelity": 38.67
+        },
+        "means": {
+          "delta_e2000": 5.002,
+          "weave_distance": 0.2611,
+          "clip_cosine": 0.8479,
+          "ssim": 0.1634
+        },
+        "motion": {
+          "mean": 0.012241524644196033,
+          "max": 0.040702491998672485,
+          "std": 0.00855357013642788
+        },
+        "frames_scored": 31,
+        "stride": 5,
+        "delivered": "960x960",
+        "mask_peak": 0.087,
+        "mask_min": 0.0661,
+        "mask_mean": 0.07629354838709677,
+        "series": [
+          {
+            "t": 0.0,
+            "fid": 51.43,
+            "mask": 0.0765
+          },
+          {
+            "t": 0.167,
+            "fid": 46.35,
+            "mask": 0.0782
+          },
+          {
+            "t": 0.333,
+            "fid": 52.81,
+            "mask": 0.0769
+          },
+          {
+            "t": 0.5,
+            "fid": 44.68,
+            "mask": 0.0762
+          },
+          {
+            "t": 0.667,
+            "fid": 45.12,
+            "mask": 0.0766
+          },
+          {
+            "t": 0.833,
+            "fid": 44.71,
+            "mask": 0.0763
+          },
+          {
+            "t": 1.0,
+            "fid": 46.16,
+            "mask": 0.0777
+          },
+          {
+            "t": 1.167,
+            "fid": 44.71,
+            "mask": 0.0779
+          },
+          {
+            "t": 1.333,
+            "fid": 46.47,
+            "mask": 0.0737
+          },
+          {
+            "t": 1.5,
+            "fid": 38.67,
+            "mask": 0.0696
+          },
+          {
+            "t": 1.667,
+            "fid": 53.49,
+            "mask": 0.087
+          },
+          {
+            "t": 1.833,
+            "fid": 53.23,
+            "mask": 0.0853
+          },
+          {
+            "t": 2.0,
+            "fid": 52.61,
+            "mask": 0.0767
+          },
+          {
+            "t": 2.167,
+            "fid": 56.33,
+            "mask": 0.0734
+          },
+          {
+            "t": 2.333,
+            "fid": 60.7,
+            "mask": 0.073
+          },
+          {
+            "t": 2.5,
+            "fid": 59.82,
+            "mask": 0.073
+          },
+          {
+            "t": 2.667,
+            "fid": 58.27,
+            "mask": 0.0761
+          },
+          {
+            "t": 2.833,
+            "fid": 59.26,
+            "mask": 0.0774
+          },
+          {
+            "t": 3.0,
+            "fid": 60.32,
+            "mask": 0.0829
+          },
+          {
+            "t": 3.167,
+            "fid": 62.23,
+            "mask": 0.0851
+          },
+          {
+            "t": 3.333,
+            "fid": 59.91,
+            "mask": 0.0794
+          },
+          {
+            "t": 3.5,
+            "fid": 64.07,
+            "mask": 0.0769
+          },
+          {
+            "t": 3.667,
+            "fid": 62.97,
+            "mask": 0.0729
+          },
+          {
+            "t": 3.833,
+            "fid": 65.89,
+            "mask": 0.0806
+          },
+          {
+            "t": 4.0,
+            "fid": 67.54,
+            "mask": 0.0792
+          },
+          {
+            "t": 4.167,
+            "fid": 61.15,
+            "mask": 0.0766
+          },
+          {
+            "t": 4.333,
+            "fid": 61.49,
+            "mask": 0.0687
+          },
+          {
+            "t": 4.5,
+            "fid": 64.33,
+            "mask": 0.0747
+          },
+          {
+            "t": 4.667,
+            "fid": 53.22,
+            "mask": 0.0703
+          },
+          {
+            "t": 4.833,
+            "fid": 56.76,
+            "mask": 0.0661
+          },
+          {
+            "t": 5.0,
+            "fid": 51.58,
+            "mask": 0.0702
+          }
+        ]
+      }
+    ],
+    "gate1_pass": [
+      "AI Generated Video --- A model wearing the exact kurti from the reference image sta\u2026"
+    ],
+    "gate1_reject": [],
+    "diversity": {
+      "selected_ids": [
+        "AI Generated Video --- A model wearing the exact kurti from the reference image sta\u2026"
+      ],
+      "note": "Only one clip passed Gate 1; diversity selection needs at least two."
+    },
+    "exports": [
+      {
+        "id": "AI Generated Video --- A model wearing the exact kurti from the reference image sta\u2026",
+        "w": 1080,
+        "h": 1920,
+        "aspect": 0.5625,
+        "mb": 4.51,
+        "mode": "crop",
+        "conforms": true,
+        "retention": 1.0
+      }
+    ]
+  },
+  "duplicate_kurti_run": "run_20260822_182724 holds an identical second pass of the same kurti clip."
+}

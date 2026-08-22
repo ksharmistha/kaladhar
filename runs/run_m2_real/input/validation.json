@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "path": "assets\\source\\saree_source.jpg",
+  "errors": [],
+  "warnings": [
+    "Short edge is 500px (under 800px). Usable, but weave-texture scoring will be limited by source detail, not by the generated clip."
+  ],
+  "info": {
+    "file_size": "183.0 KB",
+    "format": "JPEG",
+    "dimensions": "500x724",
+    "mode": "RGB",
+    "megapixels": 0.36,
+    "aspect": "0.691"
+  }
+}

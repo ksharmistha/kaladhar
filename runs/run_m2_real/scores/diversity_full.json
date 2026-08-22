@@ -1,0 +1,47 @@
+{
+  "ids": [
+    "BASELINE-courtyard",
+    "MANDAP-dusk",
+    "MANSION-marble",
+    "ROOFTOP-night"
+  ],
+  "pairwise_cosine_distance": [
+    [
+      0.0,
+      0.11469999700784683,
+      0.19990000128746033,
+      0.09309999644756317
+    ],
+    [
+      0.11469999700784683,
+      0.0,
+      0.1412000060081482,
+      0.12129999697208405
+    ],
+    [
+      0.19990000128746033,
+      0.1412000060081482,
+      0.0,
+      0.19609999656677246
+    ],
+    [
+      0.09309999644756317,
+      0.12129999697208405,
+      0.19609999656677246,
+      0.0
+    ]
+  ],
+  "diversity_all_four": 14.44,
+  "diversity_gate1_passing": 10.97,
+  "most_similar_pair": [
+    "BASELINE-courtyard",
+    "ROOFTOP-night",
+    0.09311223030090332
+  ],
+  "most_distinct_pair": [
+    "BASELINE-courtyard",
+    "MANSION-marble",
+    0.19994640350341797
+  ],
+  "note": "Computed from real generated video embeddings (mean CLIP vector over sampled frames). Not synthetic."
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "applicable": false,
+    "reason": "every scored frame already clears the threshold; nothing to cut",
+    "clip_id": "BASELINE-courtyard",
+    "applied": false
+  },
+  {
+    "applicable": false,
+    "reason": "every scored frame already clears the threshold; nothing to cut",
+    "clip_id": "MANDAP-dusk",
+    "applied": false
+  },
+  {
+    "applicable": false,
+    "reason": "longest passing window is 0.00s, under the 3.0s minimum for a usable ad",
+    "longest_window_s": 0.0,
+    "clip_id": "MANSION-marble",
+    "applied": false
+  },
+  {
+    "applicable": false,
+    "reason": "every scored frame already clears the threshold; nothing to cut",
+    "clip_id": "ROOFTOP-night",
+    "applied": false
+  }
+]
